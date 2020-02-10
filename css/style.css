@@ -1,0 +1,51 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #FFFFFF;
+}
+
+.logo {
+	display: inline-block;
+	position: relative;
+	width: 125px;
+	height: 60px;
+}
+
+.logo__img {
+	position: absolute;
+	left: 40px;
+	margin: 0 auto;
+}
+
+.logo__title {
+	margin: 0 auto;
+	position: absolute;
+	top: 30px;
+	left: 25px;
+	font-weight: bold;
+	color: #2E1449;
+
+}
+
+.menu {
+display: inline-block;
+position: absolute;
+top:40px;
+right: 0px;
+padding: 0 24px 0 24px;
+
+}
+
+.menu__item {
+	position: absolute;
+	text-decoration: none;
+	color: #2E1449;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 16px;
+	padding: 0 24px 0 24px;
+}
+
+
