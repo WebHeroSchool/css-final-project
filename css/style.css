@@ -8,6 +8,10 @@ body {
   margin: 0;
 }
 
+#menu__toggle {
+  visibility: hidden;
+}
+
 .header {
   width: 100%;
   display: flex;
